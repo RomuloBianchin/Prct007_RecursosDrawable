@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sétimo Exercício Prático - Recursos</string>
+    <string name="equipa_a">Equipa A</string>
+    <string name="resultado"> 0 x 0 </string>
+    <string name="equipa_b">Equipa B</string>
+</resources>

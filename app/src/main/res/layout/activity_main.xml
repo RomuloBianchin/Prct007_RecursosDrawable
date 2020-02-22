@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/marcador"> <!-- Invocando o shape criado manulamente-->
+
+        <TextView
+            android:id="@+id/equipaA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equipa_a"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado"
+            android:layout_toRightOf="@+id/equipaA"
+            android:layout_marginRight="8dp"
+            android:layout_toEndOf="@+id/equipaA"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/marcador"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/equipaB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equipa_b"
+            android:layout_toRightOf="@+id/resultado"
+            android:layout_toEndOf="@+id/resultado"
+            android:layout_marginTop="4dp"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

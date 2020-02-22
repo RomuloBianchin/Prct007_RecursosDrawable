@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Alteramos a tag selector para shape.-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- perceber melhor os parâmetros.
+    http://developer.android.com/guide/topics/resources/drawable-resource.html
+    -->
+
+    <gradient
+        android:startColor="#ff000000"
+        android:centerColor="#ff999999"
+        android:endColor="#ff111111"
+        android:centerY="0.9"
+        android:angle="270"
+        />
+
+    <corners android:radius="8dp"/> <!-- Atributo para arrendondar as bordas-->
+
+    <!-- Atributo que irá informar a distância entre os objetos e as bordas-->
+    <padding
+        android:left="7dp"
+        android:top="7dp"
+        android:right="7dp"
+        android:bottom="7dp"/>
+
+    <!-- Atributo que irá passar os parâmetros para a borda-->
+    <stroke
+        android:width="5dp"
+        android:color="@android:color/black"/>
+
+
+</shape>
